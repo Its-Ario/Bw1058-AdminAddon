@@ -1,0 +1,35 @@
+name: Bedwars1058-AdminAddon
+version: '${project.version}'
+main: me.zuyte.admin.Main
+api-version: "1.13"
+softdepend: [ Bedwars1058,Bedwars1058-TeamSelector ]
+authors: [ Zuyte ]
+description: Admin features to bedwars1058!
+commands:
+  bwa:
+    description: bedwars1058 admin commands
+permissions:
+  bw.admin:
+    description: Permission for /bw admin command.
+    default: op
+  bw.admin.revive:
+    description: Permission for /bw revive command.
+    default: op
+  bw.admin.forcejoin:
+    description: Permission for /bw forcejoin command.
+    default: op
+  bw.admin.setteam:
+    description: Permission for /bw setteam command.
+    default: op
+  bw.admin.nextevent:
+    description: Permission for /bw nextevent command.
+    default: op
+  bw.admin.skipevent:
+    description: Permission for /bw skipevent command.
+    default: op
+  bw.admin.setbed:
+    description: Permission for /bw setbed command.
+    default: op
+  bw.admin.troll:
+    description: Permission for /bw troll command.
+    default: op
