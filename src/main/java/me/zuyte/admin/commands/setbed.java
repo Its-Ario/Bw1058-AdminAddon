@@ -40,11 +40,14 @@ public class setbed{
                         BlockFace targetFace = Main.getInstance().beds.get(arena.getArenaName()+ mplayerteam.getName()+"Main");
                         placeBed(mplayerteam.getBed(), targetFace.getOppositeFace());
                         p.sendMessage(ChatColor.GREEN + "Success!");
+                        mplayerteam.sendMessage(ChatColor.GREEN + "Your Bed Has Been Revived By An Admin!")
+
                         return;
                     } else if (args[2].equalsIgnoreCase("false")) {
                         ITeam mplayerteam = arena.getPlayerTeam(player.getName());
                         mplayerteam.setBedDestroyed(true);
                         p.sendMessage(ChatColor.GREEN + "Success!");
+                        mplayerteam.sendMessage(ChatColor.GREEN + "Your Bed Has Been Destroyed By An Admin!")
                         return;
                     }
                 }

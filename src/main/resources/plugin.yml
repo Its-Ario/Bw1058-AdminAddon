@@ -3,7 +3,7 @@ version: '${project.version}'
 main: me.zuyte.admin.Main
 api-version: "1.13"
 softdepend: [ Bedwars1058,Bedwars1058-TeamSelector ]
-authors: [ Zuyte ]
+authors: [ Its_Ario ]
 description: Admin features to bedwars1058!
 commands:
   bwa:
